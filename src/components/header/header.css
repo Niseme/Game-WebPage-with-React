@@ -1,0 +1,22 @@
+header a {
+    text-transform: uppercase;
+
+}
+
+header .nav-color {
+    color: #fff;
+}
+
+header .border-up {
+    border-bottom: 2px solid black;
+    width: 10%;
+    margin-bottom: 3%;
+    margin-right: 7%;
+
+}
+
+header .border-down {
+    border-bottom: 2px solid black;
+    width: 10%;
+
+}

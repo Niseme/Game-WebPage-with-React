@@ -1,0 +1,111 @@
+.conept-arts h1 {
+    line-height: 2.5rem;
+    font-size: 2.6em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right
+}
+
+.conept-arts img {
+    width: 100%;
+}
+
+/* right side */
+.socials {
+    margin-top: 10em;
+}
+
+.conept-arts .right-side li {
+    margin-bottom: 35px;
+}
+
+.conept-arts .right-side a:hover {
+    color: #6f002e;
+}
+
+.conept-arts .right-side li:last-child {
+    margin-bottom: 0px;
+}
+
+.conept-arts .right-side a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.conept-scroll {
+    position: relative;
+    height: 40vh;
+}
+
+.conept-scroll .line-text {
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin-top: 7rem;
+}
+
+.conept-scroll .line-text:hover {
+    color: #6f002e;
+}
+
+.v-line {
+    position: absolute;
+    border: 1px solid transparent;
+    width: 7px;
+    height: 100em;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3px;
+    text-align: center;
+    border-radius: 13em;
+}
+
+.v-line>.wheel {
+    display: inline-block;
+    width: 3em;
+    height: 50em;
+    background-color: black;
+    border-radius: 1.5em;
+    animation-name: scrolling;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes scrolling {
+    0% {
+        /* margin-top: 8em; */
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 1;
+    }
+
+    100% {
+        /* margin-top: 80em; */
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .conept-arts,
+    .conept-arts .right-side a {
+        color: #fff;
+    }
+
+    .v-line {
+        border: 1px solid white;
+    }
+
+    .conept-scroll {
+        display: none;
+    }
+
+    .socials li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

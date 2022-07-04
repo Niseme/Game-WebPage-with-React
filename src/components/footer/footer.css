@@ -1,0 +1,10 @@
+footer .ftaw {
+    color: #333;
+    font-size: 2rem;
+    display: flex;
+
+}
+
+footer a {
+    color: none !important
+}

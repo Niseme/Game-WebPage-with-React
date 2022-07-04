@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-red {
+  background-image: url("./components/assets/img/bg-cropped.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .bg-red {
+    background-image: url("./components/assets/img/main-bg-red.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}
