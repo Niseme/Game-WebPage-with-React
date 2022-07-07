@@ -1,7 +1,7 @@
 import React from 'react'
 import './conept-column.css';
 import CornerPicture from '../assets/img/corner-picture.png';
-
+import { motion } from 'framer-motion';
 
 const ConeptColumn = () => {
   return (
@@ -13,12 +13,12 @@ const ConeptColumn = () => {
                             </div>
                             <div className="right-side d-flex flex-column justify-content-between h-100 ">
                                 <div className="socials">
-                                    <ul
-                                        className="list-unstyled d-flex flex-column align-items-center justify-content-center">
-                                        <li className="socials-a"><a href="https://www.facebook.com/">fb</a></li>
-                                        <li className="socials-a"><a href="https://www.twitter.com/">tw</a></li>
-                                        <li className="socials-a"><a href="https://www.instagram.com/">ig</a></li>
-                                    </ul>
+                                    <motion.ul
+                          className="list-unstyled d-flex flex-column align-items-center justify-content-center" >
+                                        <motion.li className="socials-a" initial={{ }} animate={{ y: [0, 20, 0] }} transition={{ delay: 1, type: "spring", stiffness: 200}}><a href="https://www.facebook.com/">fb</a></motion.li>
+                                        <motion.li className="socials-a" initial={{ }} animate={{ y: [10, 200, 0] }} transition={{ delay: 1, type: "spring", stiffness: 2000 }}><a href="https://www.twitter.com/">tw</a></motion.li>
+                                        <motion.li className="socials-a" initial={{ }} animate={{ y: [50, 50, 0] }} transition={{ delay: 1, type: "spring", stiffness: 2000 }}><a href="https://www.instagram.com/">ig</a></motion.li>
+                                    </motion.ul>
                                 </div>
                                 <div className="conept-scroll">
                                     <div className="line-text d-flex flex-row justify-content-start">

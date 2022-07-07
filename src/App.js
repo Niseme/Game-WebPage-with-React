@@ -7,7 +7,6 @@ import Carousel from './components/carousel/Carousel';
 import Games from './components/games/Games';
 import Footer from './components/footer/Footer';
 
-
 function App() {
   return (
     <div className="App">
