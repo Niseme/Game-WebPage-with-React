@@ -8,15 +8,23 @@ const gameMenu = [
     category: "car game",
     price: 15.99,
     link: 'https://niseme.github.io/17-car-racing/',
-    desc: `Easy Racing game made with JS for learning process `,
+    desc: `Easy Racing game made with JS for learning process`,
   },
   {
     id: 2,
     title: "Dice game",
-    category: "lunch",
+    category: "dice",
     price: 13.99,
     link: "https://niseme.github.io/Pig-game/",
-    desc: `Easy dice game made with JS for learning process `,
+    desc: `Easy dice game made with JS for learning process`,
+  },
+  {
+    id: 3,
+    title: "Guess the member",
+    category: "guess",
+    price: 1.99,
+    link: "https://niseme.github.io/WORD-GAME/",
+    desc: `Easy guess game made with JS for learning process`,
   },
 ];
 
