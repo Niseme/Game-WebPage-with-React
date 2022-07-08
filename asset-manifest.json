@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Game-WebPage-with-React/static/css/main.35bc0de2.css",
+    "main.js": "/Game-WebPage-with-React/static/js/main.e49998f8.js",
+    "static/js/787.d82deddb.chunk.js": "/Game-WebPage-with-React/static/js/787.d82deddb.chunk.js",
+    "static/media/main-bg-red.jpg": "/Game-WebPage-with-React/static/media/main-bg-red.ad2c288790e42da1d6d2.jpg",
+    "static/media/bg-cropped.png": "/Game-WebPage-with-React/static/media/bg-cropped.0a66eadf10673218b7d0.png",
+    "static/media/woman.png": "/Game-WebPage-with-React/static/media/woman.9de1e67d6a89cfb6c2ac.png",
+    "static/media/corner-picture.png": "/Game-WebPage-with-React/static/media/corner-picture.c9e4799b41a85d93e7cb.png",
+    "static/media/1.jfif": "/Game-WebPage-with-React/static/media/1.3324db2a9819d725cca2.jfif",
+    "static/media/4.jfif": "/Game-WebPage-with-React/static/media/4.59f6065df729825d9788.jfif",
+    "static/media/3.jfif": "/Game-WebPage-with-React/static/media/3.7dc7c990601cf432b463.jfif",
+    "static/media/2.jfif": "/Game-WebPage-with-React/static/media/2.3604f440b7456c7d0e72.jfif",
+    "index.html": "/Game-WebPage-with-React/index.html",
+    "main.35bc0de2.css.map": "/Game-WebPage-with-React/static/css/main.35bc0de2.css.map",
+    "main.e49998f8.js.map": "/Game-WebPage-with-React/static/js/main.e49998f8.js.map",
+    "787.d82deddb.chunk.js.map": "/Game-WebPage-with-React/static/js/787.d82deddb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35bc0de2.css",
+    "static/js/main.e49998f8.js"
+  ]
+}
